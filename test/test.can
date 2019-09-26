@@ -1,0 +1,10 @@
+unset FTP_PROXY ;unset HTTPS_PROXY ;unset HTTP_PROXY ;unset NO_PROXY ;unset RSYNC_PROXY ;unset ftp_proxy ;unset http_proxy ;unset https_proxy ;unset no_proxy ;unset rsync_proxy
+echo '10.245.2.171      slciatg' >> /cygdrive/c/Windows/SYSTEM32/DRIVERS/ETC/HOSTS
+
+curl -i 'http://slcipcm:3000/mode_buffer'
+curl -i 'http://slciatg:3000/a/b/c.html?parm1=val1'
+curl -i 'http://slcipcm.us.oracle.com:3000/mode_lskdfj'
+curl -i 'http://slcipcm:3000/status'
+curl -i 'http://slciatg:3000/a/b/c.html?parm1=val1'
+echo here is the body | curl -i -X POST http://slciatg:3000/post/x/y?parm2=val2 --data "@-"
+curl -i 'http://slcipcm:3000/mode_passthru_unless_queue'
